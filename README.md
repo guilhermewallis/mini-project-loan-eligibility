@@ -14,7 +14,7 @@
 
 
 
-
+## Data Exploration
 #### Analyzing the dataset's features
 * The dataset is small containing only 614 rows and 13 columns but fairly clean and most of it useble in the model
 * most applications are submitted by a single applicant while a few contain a co-applicant
@@ -25,7 +25,7 @@
 
 
 #### Analyzing relationships amongst features and against the target.
-* ** Data shows that the amount loaned to the applicant somewhat takes into account their level of income**.
+* **Data shows that the amount loaned to the applicant somewhat takes into account their level of income**.
 * there is some correlation between the applicant having a credit history and getting the approval on the loan.
 * **Semiurban properties have a higher loan approval rate of 76.8%** compared to urban and rural properties at 65.8% and 61% respectively
 * Married applicants at a higher rate of approval vs. not married
@@ -34,6 +34,7 @@
 #### The dataset is imbalanced towards the value Y in target feature: most applicants get approval for the loan.
 * Attempts to balance the dataset through resampling were considered and tested and scaling tecniques were tested with the model.
 
+## Results
 #### LogisticRegression is the preferred model for this problem.
 * Best results (confusion matrix):
     * 0.14 / 0.12
