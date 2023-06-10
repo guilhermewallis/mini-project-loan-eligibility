@@ -40,4 +40,4 @@
     * 0.14 / 0.12
     * 0.00 / 0.74
     * classification score of 0.87
-* **Overall the application of this ML model fulfills the proposed objective of predicting the eligibility of an applicant for a loan**
+#### Overall the application of this ML model fulfills somewhat the proposed objective of automating the process of online submitted applications by predicting when the application submitted is to be rejected.
